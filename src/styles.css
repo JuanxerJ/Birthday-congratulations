@@ -36,6 +36,22 @@ body {
   filter: blur(30px);
   transform: rotateX(50deg);
 }
+.all-elements-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.audio-container {
+  padding-top: 25vh;
+  align-self: center;
+}
+
+.audio-container audio[controls] {
+  color: #560e8699;
+}
+
 .container span:hover {
   filter: contrast(250%);
 }
