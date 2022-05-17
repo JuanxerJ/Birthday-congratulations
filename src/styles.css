@@ -49,7 +49,12 @@ body {
 }
 
 .audio-container audio[controls] {
-  color: #560e8699;
+  mix-blend-mode: color-burn;
+  filter: saturate(200%);
+}
+.audio-container audio[controls]:hover {
+  filter: saturate(400%);
+  color: #bb00ff;
 }
 
 .container span:hover {
